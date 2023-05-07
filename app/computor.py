@@ -117,5 +117,5 @@ try:
     print_data(a, b, c)
     solve_polynomial(a, b, c)
 except argparse.ArgumentTypeError as e:
-    print(e)
+    print(e, file=sys.stderr)
     sys.exit(1)
