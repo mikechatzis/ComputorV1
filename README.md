@@ -9,7 +9,7 @@
 
 ## About <a name = "about"></a>
 
-    A small python app that solves up to 2nd degree polynomial equations
+    A small python app that solves up to 2nd degree polynomial equations.
 
 ### Prerequisites
 
@@ -17,7 +17,7 @@
 
 ## Usage <a name = "usage"></a>
 
-the equation must be in the format:
+The equation must be in the format:
 
 "a\*x^2 + b\*x^1 + c\*x^0 = 0\*x^0"
 
