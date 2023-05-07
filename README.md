@@ -27,8 +27,10 @@ For example: a\*x^2 + b\*x^2 = c\*x^0 - d\*x^1 is valid.
 ```
 cd app
 python3 computor.py <the equation to solve>
+```
 
 or
 
+```
 docker-compose run -e EQ=<the equation to solve> computor_container bash -c 'python3 computor.py "$EQ"'
 ```
