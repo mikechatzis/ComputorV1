@@ -1,0 +1,13 @@
+version: '3'
+services:
+  computor_container:
+    image: python:latest
+    volumes:
+      - ./app:/app
+    working_dir: /app
+    restart: "no"
+    command: 
+      - "python3"
+      - "computor.py"
+      #equation to solve
+      - ${EQ} #example: '5 * x^0 + 4 * x^1 - 9.3 * x^2 = 1 * x^0'
