@@ -84,6 +84,8 @@ def solve_polynomial(a, b, c):
                 print("This equation has no real number solution")
         else:
             x = -c / b
+            if x.is_integer():
+                x = int(x)
             print(f"The solution is x = {x}")
     else:
         discriminant = b**2 - 4*a*c
